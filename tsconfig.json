@@ -2,10 +2,12 @@
   "compilerOptions": {
     "strict": true,
     "target": "es6",
-    "module": "commonjs",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
+
   "files": [
     "hello.ts"
   ]

@@ -1,10 +1,16 @@
 {
+  "type": "module",
   "scripts": {
-    "start": "ts-node hello.ts"
+    "start": "node --experimental-specifier-resolution=node --loader ts-node/esm ./hello.ts"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.202",
     "@types/node": "20.11.10",
+    "get-port": "^7.0.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
